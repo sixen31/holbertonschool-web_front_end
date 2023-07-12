@@ -1,12 +1,28 @@
+/* Custom font families */
 :root {
   --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Body */
 body {
   font-family: var(--font-family-base);
 }
 
+/* Section headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
+}
+
+/* Links */
+a {
+  color: #f20530;
+  text-decoration: none;
+  border-bottom: 2px solid #f20530;
+}
+
+a:hover {
+  color: #f20530;
+  background-color: #f8f8f8;
+  border-radius: 5px;
 }
