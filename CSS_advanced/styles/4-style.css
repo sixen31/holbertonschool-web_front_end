@@ -1,7 +1,7 @@
 /* Custom font families */
 :root {
   --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-family-title: Arial, sans-serif;
 }
 
 /* Body */
